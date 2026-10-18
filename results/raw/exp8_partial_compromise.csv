@@ -1,0 +1,41 @@
+scenario,scheme,established_fraction,secure_fraction,secure_ci95,exposed_given_established
+None compromised,Classical,1.0,1.0,0.0,0.0
+None compromised,PQC,1.0,1.0,0.0,0.0
+None compromised,QKD,0.4376,0.4376,0.0051,0.0
+None compromised,Naive Hybrid,0.436,0.436,0.0051,0.0
+None compromised,Proposed Hybrid,1.0,1.0,0.0,0.0
+Classical broken,Classical,1.0,0.0,0.0,1.0
+Classical broken,PQC,1.0,1.0,0.0,0.0
+Classical broken,QKD,0.4376,0.4376,0.0051,0.0
+Classical broken,Naive Hybrid,0.436,0.436,0.0051,0.0
+Classical broken,Proposed Hybrid,1.0,1.0,0.0,0.0
+PQC broken,Classical,1.0,1.0,0.0,0.0
+PQC broken,PQC,1.0,0.0,0.0,1.0
+PQC broken,QKD,0.4376,0.4376,0.0051,0.0
+PQC broken,Naive Hybrid,0.436,0.436,0.0051,0.0
+PQC broken,Proposed Hybrid,1.0,1.0,0.0,0.0
+QKD broken,Classical,1.0,1.0,0.0,0.0
+QKD broken,PQC,1.0,1.0,0.0,0.0
+QKD broken,QKD,0.4376,0.0,0.0,1.0
+QKD broken,Naive Hybrid,0.436,0.436,0.0051,0.0
+QKD broken,Proposed Hybrid,1.0,1.0,0.0,0.0
+Classical+PQC,Classical,1.0,0.0,0.0,1.0
+Classical+PQC,PQC,1.0,0.0,0.0,1.0
+Classical+PQC,QKD,0.4376,0.4376,0.0051,0.0
+Classical+PQC,Naive Hybrid,0.436,0.436,0.0051,0.0
+Classical+PQC,Proposed Hybrid,1.0,0.4399,0.0051,0.5601
+Classical+QKD,Classical,1.0,0.0,0.0,1.0
+Classical+QKD,PQC,1.0,1.0,0.0,0.0
+Classical+QKD,QKD,0.4376,0.0,0.0,1.0
+Classical+QKD,Naive Hybrid,0.436,0.436,0.0051,0.0
+Classical+QKD,Proposed Hybrid,1.0,1.0,0.0,0.0
+PQC+QKD,Classical,1.0,1.0,0.0,0.0
+PQC+QKD,PQC,1.0,0.0,0.0,1.0
+PQC+QKD,QKD,0.4376,0.0,0.0,1.0
+PQC+QKD,Naive Hybrid,0.436,0.436,0.0051,0.0
+PQC+QKD,Proposed Hybrid,1.0,1.0,0.0,0.0
+All broken,Classical,1.0,0.0,0.0,1.0
+All broken,PQC,1.0,0.0,0.0,1.0
+All broken,QKD,0.4376,0.0,0.0,1.0
+All broken,Naive Hybrid,0.436,0.0,0.0,1.0
+All broken,Proposed Hybrid,1.0,0.0,0.0,1.0

@@ -1,0 +1,7 @@
+scenario,session_success_rate,success_ci95,key_source_coverage,coverage_ci95
+"Baseline Hybrid
+(Classical+PQC)",1.0,0.0,0.6666666666666644,0.0
+"Partial / Intermittent
+QKD Availability",1.0,0.0,0.7393888888888865,0.001389453796227809
+"QKD-Enhanced Hybrid
+(Classical+PQC+QKD)",1.0,0.0,0.8214166666666647,0.001883557906600484

@@ -1,0 +1,7 @@
+scheme,naive_extra_rounds,success_rate,qkd_secured_share,mean_latency_all_ms,mean_latency_qkd_sessions_ms
+proposed,-,1.0,0.4401,30.0624,34.6272
+naive,0,0.433,0.433,35.0844,35.0844
+naive,1,0.4399,0.4399,37.5845,37.5845
+naive,2,0.4353,0.4353,40.1384,40.1384
+naive,3,0.4356,0.4356,42.6123,42.6123
+naive,4,0.4395,0.4395,45.0791,45.0791
